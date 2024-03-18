@@ -1,6 +1,5 @@
 package org.example;
 
-import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,7 +11,7 @@ public class Main {
         String c = "Barbara";
         String d = "Carsten";
 
-        List<String> students = new ArrayList<>();
+        List<String> students = new ArrayList<>(); //[0]
         students.add(a);
         students.add(b);
         students.add(c);
@@ -30,6 +29,6 @@ public class Main {
         students.remove(2);
         System.out.println(students);
 
-        System.out.println("Index von Carssten = " + students.indexOf("Carsten"));
+        System.out.println("Index von Carsten = " + students.indexOf("Carsten"));
     }
 }
