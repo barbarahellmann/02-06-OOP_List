@@ -25,5 +25,11 @@ public class Main {
 
         //students.length
         System.out.println(students.size());
+
+        //Lösche das x. Objekt im Array
+        students.remove(2);
+        System.out.println(students);
+
+        System.out.println("Index von Carssten = " + students.indexOf("Carsten"));
     }
 }
